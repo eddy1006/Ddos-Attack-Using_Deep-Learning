@@ -9,7 +9,7 @@ accessKey = os.getenv('ACCESSKEY')
 accessSecret = os.getenv('ACCESSSECRET')
 projectId = os.getenv('PROJECTID')
 channel = "SMS"
-identity = "+918840194848"
+identity = ""
 url = "https://us.conversation.api.sinch.com/v1/projects/" + projectId + "/messages:send"
 
 data = accessKey + ":" + accessSecret
